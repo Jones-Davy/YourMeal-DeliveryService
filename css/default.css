@@ -1,0 +1,90 @@
+html {
+    --container: 300px;
+    --padding-container: 10px;
+    box-sizing: border-box;
+   /* position: relative;
+    overflow-x: hidden; */
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+img,svg {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, figure {
+    margin: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.container {
+    max-width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 480px ) {
+    html {
+        --container: 640px;
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    html {
+        --padding-container: 64px;
+    }
+}
+
+@media screen and (min-width: 1024px ) {
+    html {
+        --container: 960px;
+        --padding-container: 32px;
+    }
+}
+
+@media screen and (min-width: 1360px ) {
+    html {
+        --container: 1290px;
+    }
+}
