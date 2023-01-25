@@ -136,6 +136,12 @@
     line-height: 16px;
     background: url('../img/delivery.png') left no-repeat;
   }
+
+  .order__empty {
+    font-size: 16px;
+    line-height: 130%;
+
+  }
   
   @media(min-width: 768px) {
     .order__wrapper {
@@ -153,6 +159,10 @@
       padding-top: 72px;
     }
   
+    .order__close {
+      display: none;
+    }
+
     .order__wrapper {
       position: unset;
       width: 300px;
@@ -161,17 +171,15 @@
   
     .order__wrap-list {
       display: block;
+      margin-bottom: 16px;
     }
-  
-    .order__wrap-title {
-      cursor: default;
-    }
-  
+   
     .order__wrap-title {
       display: flex;
       align-items: center;
       justify-content: space-between;
       margin-bottom: 12px;
+      cursor: default;
     }
   
     .order__wrap-title:hover .order__title {
@@ -188,9 +196,31 @@
       width: 41px;
       height: 20px;
     }
+
+    .order__item {
+      padding: 15px 0;
+    }
   
     .order__list {
       margin-bottom: 16px;
+    }
+
+    .order__total {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+
+    .order__submit {
+      padding: 1px;
+      height: 40px;
+      border-radius: 12px;
+      font-size: 16px;
+      margin-bottom: 8px;
+
+    }
+
+    .order__appeal {
+      font-size: 12px;
     }
   }
 

@@ -15,3 +15,18 @@
     width: 8px;
 }
 
+@media screen and (min-width: 1024px ) {
+    .count {
+        width: 84px;
+        height: 40px;
+        border-radius: 12px;
+        padding: 9px 12px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .count__minus,
+    .count__plus {
+        width: 10px;
+    }
+}
