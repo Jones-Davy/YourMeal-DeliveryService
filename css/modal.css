@@ -25,27 +25,39 @@
   }
   
   .modal__close {
-    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    display: block;
     border: none;
-    color: #B1B1B1;
-    cursor: pointer;
     position: absolute;
     top: 10px;
     right: 10px;
     outline: 1px solid transparent;
+    color: #B1B1B1;
+    cursor: pointer;
     outline-offset: 3px;
-    transition: outline-color .15s ease-in-out, color .15s ease-in-out;
     border-radius: 3px;
-    padding: 0;
-    display: block;
-    width: 24px;
-    height: 24px;
+    background-color: transparent;
+    transition: outline-color .15s ease-in-out, color .15s ease-in-out;
+
   }
   
-  .modal__close:focus-visible {
+  .modal__close:focus-visible, .modal__close:active {
     color: #FFAB08;
     outline-color: #FFAB08;
+    border-radius: 3px;
   }
+
+  .modal__close:hover {
+    color: #FFAB08;
+  }
+
+  @supports not selector(::focus-visible) {
+    .modal__close:focus {
+      color: #FFAB08;
+    }
+   }
   
   
   @media (min-width: 480px) {
@@ -79,5 +91,9 @@
     .modal__close {
       top: 24px;
       right: 24px;
+    }
+
+    .modal {
+      padding: 20px;
     }
   } 

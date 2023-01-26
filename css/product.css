@@ -5,6 +5,7 @@
     background-color: white;
     border-radius: 12px;
     min-height: 243px;
+
 }
 
 .product__image {
@@ -13,6 +14,8 @@
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
+    cursor: pointer;
+
 }
 
 .product__price {
@@ -32,6 +35,12 @@
 
 .product__detail {
     outline: none;
+    position: relative;
+}
+
+.product__detail:hover,
+.product__detail:focus-visible {
+    color: #F86310;
 }
 
 .product__weight {
@@ -49,7 +58,33 @@
     width: 100%;
     font-size: 12px;
     line-height: 100%;
+    transition: all .1s ease;
 }
+
+.product__add:hover {
+    background-color: #FFAB08;
+   }
+  
+.product__add:focus-visible {
+    background-color: #F86310;
+   }
+  
+.product__add:active {
+    transform: translate(1px, 2px);
+   }
+  
+.product__add:disabled {
+    background-color: #F9F9F9;
+   }
+
+
+   @supports not selector(::focus-visible) {
+    .product__add:focus {
+      background-color: #F86310;
+     }
+   }
+
+   
 
 @media screen and (min-width: 1024px ) {
     .product {

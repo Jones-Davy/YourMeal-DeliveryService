@@ -45,6 +45,12 @@
 .footer__link-sn {
     color: #ff7020;
 }
+.footer__link-phone:hover,
+.footer__link-phone:focus,
+.footer__link-sn:hover,
+.footer__link-sn:focus {
+    color: #ffab08;
+}
 
 .footer__contact {
     margin-bottom: 30px;

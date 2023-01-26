@@ -61,7 +61,30 @@
     font-size: 12px;
     line-height: 1;
     color: white;
+    transition: all .1s ease;
 }
+
+.modal-product__btn:hover {
+    background-color: #FFAB08;
+   }
+  
+.modal-product__btn:focus-visible {
+    background-color: #F86310;
+   }
+  
+.modal-product__btn:active {
+    transform: translate(1px, 2px);
+   }
+  
+.modal-product__btn:disabled {
+    background-color: #F9F9F9;
+   }
+
+   @supports not selector(::focus-visible) {
+    .modal-product__btn:focus {
+      background-color: #F86310;
+     }
+   }
 
 .modal-product__price {
     text-align: right;

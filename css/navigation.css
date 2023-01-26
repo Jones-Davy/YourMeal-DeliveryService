@@ -34,6 +34,11 @@
 
 }
 
+.navigation__button:active {
+    background-color: #FFAB08;
+
+}
+
 @supports not selector(:focus-visible) {
     .navigation__button:focus{
         outline: 1px solid #f86310;
