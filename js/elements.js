@@ -20,4 +20,5 @@ export const orderSubmit = document.querySelector('.order__submit')
 export const modalDelivery = document.querySelector('.modal_delivery')
 export const modalDeliveryForm = document.querySelector('.modal-delivery__form')
 export const modalDeliveryContainer = document.querySelector('.modal-delivery__container')
+export const modalDeliveryFormMsg = document.querySelector(".modal-delivery__msg");
 

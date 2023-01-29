@@ -75,6 +75,7 @@
   width: calc((100% - var(--gap)) / 2)
 }
 
+
 .modal-delivery__btn {
   width: 100%;
   font-size: 12px;

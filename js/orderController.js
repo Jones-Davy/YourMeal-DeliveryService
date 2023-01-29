@@ -1,5 +1,5 @@
 import { clearCart } from "./cart.js"
-import { modalDeliveryContainer, modalDeliveryForm } from "./elements.js"
+import { modalDelivery, modalDeliveryForm, modalDeliveryFormMsg, modalDeliveryContainer } from "./elements.js"
 
 export const orderController = (getCart) => {
 
@@ -30,16 +30,21 @@ export const orderController = (getCart) => {
         .then(response => response.json())
         .then(response => {
             clearCart()
+            modalDeliveryForm.reset()
+            checkDelivery();
+            modalDeliveryContainer.style.display = 'none'
+            modalDeliveryFormMsg.textContent = `
+          Спасибо за Ваш заказ - ${response.id}! Ожидайте звонка нашего оператора в ближайшее время.
+        `;
 
-            modalDeliveryContainer.innerHTML = `
-            <h2>Спасибо за заказ!</h2>
-            </br>
-            <h3>Номер вашего заказа ${response.id}</h3>
-            `
+        setTimeout(() => {
+            modalDeliveryFormMsg.textContent = ''
+            modalDelivery.classList.remove('modal_open')
+            modalDeliveryContainer.style.display = 'block'
+        }, 5000);
 
-         
-            //modalDeliveryForm.reset()
-            //checkDelivery()
         })
     })
+    
 }
+
