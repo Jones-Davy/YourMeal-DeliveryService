@@ -5,7 +5,7 @@
 
   <div align="center">
      <img src="https://media.giphy.com/media/67uAbocRzvxfnHFT9f/giphy.gif" width="250px" height="200px"/>
-   <h3><a href="https://jones-davy.github.io/YourMeal-DeliveryService/">Сайт проекта  YourMeal ### :burger</a></h3>
+   <h3><a href="https://jones-davy.github.io/YourMeal-DeliveryService/">Сайт проекта  YourMeal :burger</a></h3>
   </div>
   
   Веб-приложение для заказа еды, которое можно использовать в качестве сайта реального ресторана. В приложении реализованы меню по категориям, модальные окна товаров и заказа, корзина товаров и возможность выбора доставки/самовывоза.
@@ -37,7 +37,7 @@ node index
 После этого воспользуйтесь плагином Live Server для открытия страницы index.html в браузере
 <br/>
 
-<h3>Технологии проекта ### :hammer_and_wrench:</h3>
+<h3>Технологии проекта :hammer_and_wrench:</h3>
 <p>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>  Семантическая вёрстка, работа с формами, модальными окнами, svg и выпадающими списками
     <br/>
