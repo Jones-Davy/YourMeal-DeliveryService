@@ -41,7 +41,7 @@ export const orderController = (getCart) => {
             modalDeliveryFormMsg.textContent = ''
             modalDelivery.classList.remove('modal_open')
             modalDeliveryContainer.style.display = 'block'
-        }, 5000);
+        }, 3500);
 
         })
     })
