@@ -16,6 +16,7 @@
 
  <div align="center">
    <img src="https://github.com/Jones-Davy/YourMeal-DeliveryService/blob/main/img/screen.jpg" alt="Превью сайта"/>
+   <img src="https://github.com/Jones-Davy/YourMeal-DeliveryService/blob/main/img/screen-2.jpg" alt="Превью сайта"/>  
 </div>
 
 <br/>
