@@ -44,7 +44,7 @@ node index
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>  Адаптивная вёрстка, псевдоклассы и псевдоэлементы, переменные, импортируемые шрифты, составные селекторы и анимации, stylized scrollbar,  @supports.
     <br/>
     <br/>
-   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40" margin-right="2"/>  Модульный подход, fetch, работа с DOM, async/await, promise, api, try/catch, JSON, делегирование событий.
+   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>   Модульный подход, fetch, работа с DOM, async/await, promise, api, try/catch, JSON, делегирование событий.
     <br/>
     <br/>
   
