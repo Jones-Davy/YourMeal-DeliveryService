@@ -4,7 +4,7 @@
   <br/>
 
   <div align="center">
-     <img src="https://media.giphy.com/media/67uAbocRzvxfnHFT9f/giphy.gif" width="250px" height="200px"/>
+     <img src="https://media.giphy.com/media/67uAbocRzvxfnHFT9f/giphy.gif"/>
    <h3><a href="https://jones-davy.github.io/YourMeal-DeliveryService/">Сайт проекта  YourMeal 🍔</a></h3>
   </div>
   
